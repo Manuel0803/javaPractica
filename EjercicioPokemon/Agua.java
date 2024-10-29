@@ -5,5 +5,4 @@ public interface Agua {
     public void atacarBurbuja();
     public void atacarHidropulso();
 
-
 }
