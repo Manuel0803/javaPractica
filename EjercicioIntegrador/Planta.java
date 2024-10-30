@@ -1,6 +1,6 @@
 package EjercicioIntegrador;
 
-public class Planta {
+public abstract class Planta {
     
     
     private String nombre;
@@ -60,9 +60,8 @@ public class Planta {
         this.climaIdeal = climaIdeal;
     }
 
-    public void decirLoQueSoy(){
-        
-    }
+    public abstract void decirLoQueSoy();
+
 
 
 
